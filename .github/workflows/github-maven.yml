@@ -20,8 +20,7 @@ jobs:
       # 移动打包好的 jar 文件到 staging 文件夹
       - run: mkdir staging && cp Hello-Maven/target/*.jar staging
       # 上传文件并发布到 Release
-      - name: Upload to Release
-        uses: "marvinpinto/action-automatic-releases@latest"
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ env.RELEASE_VERSION }}"
