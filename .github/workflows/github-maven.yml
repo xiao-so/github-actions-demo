@@ -27,6 +27,6 @@ jobs:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "${{ env.RELEASE_VERSION }}"
           prerelease: true
-          title: "Release  {{ env.RELEASE_VERSION }}"
+          title: "Release  ${{ env.RELEASE_VERSION }}"
           files: |
             staging/*.jar
