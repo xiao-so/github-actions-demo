@@ -1,6 +1,9 @@
 name: GitHub Actions Demo
 run-name: package maven project
-on: [push]
+on:
+  push:
+    branches:
+      - quick-start-ci
 jobs:
   Package-Maven-Project:
     env:
