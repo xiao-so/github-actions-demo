@@ -1,11 +1,3 @@
-# github-actions-demo
-本项目用于熟悉和练习 github-actions
-
-## quick-start
-1. 创建 `.github/workflows` 目录
-2. 在目录下创建一个 `github-actions-demo.yml` 文件
-3. 修改文件内容
-```yaml
 name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
@@ -24,5 +16,3 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
-```
-4. 提交文件，推送到远程分支 quick-start
