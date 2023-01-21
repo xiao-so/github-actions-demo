@@ -1,6 +1,6 @@
 # github-actions-demo
-本项目用于熟悉和练习 github-actions
-
+本项目用于熟悉和练习 GitHub Actions
+使用 GitHub Actions,需要在公共仓库操作
 ## quick-start
 1. 创建 `.github/workflows` 目录
 2. 在目录下创建一个 `github-actions-demo.yml` 文件
@@ -26,3 +26,12 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
 ```
 4. 提交文件，推送到远程分支 quick-start
+
+可以在项目 Actions 里找到如下标题的信息，其中 `xiao-so` 为 `${{ github.actor }}`
+
+> xiao-so is testing out GitHub Actions 🚀
+
+点击可以查看详细执行结果
+
+
+
