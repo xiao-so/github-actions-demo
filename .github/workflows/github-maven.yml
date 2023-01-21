@@ -14,6 +14,7 @@ jobs:
         with:
           java-version: '8'
           cache: 'maven'
+          distribution: 'temurin'
       # 使用 maven package
       - name: Build with Maven
         run: mvn clean package -e -U -B --file Hello-Maven/pom.xml
