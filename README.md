@@ -27,7 +27,7 @@ jobs:
 ```
 4. 提交文件，推送到远程分支 quick-start
 
-可以在项目 Actions 里找到如下标题的信息，其中 `xiao-so` 为 `${{ github.actor }}`
+可以在项目 Actions 里找到如下标题的信息，其中 `${{ github.actor }}` 被替换为 `xiaoso-so`
 
 > xiao-so is testing out GitHub Actions 🚀
 
