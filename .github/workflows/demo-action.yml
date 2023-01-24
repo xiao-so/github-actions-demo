@@ -8,7 +8,7 @@ run-name: ${{ github.actor }} run the demo-job
 on:
   # 每当 push 到 demo-job 分支时触发部署
   push:
-    branches: [demo-job]
+    branches: [demo-action]
   # 手动触发部署
   workflow_dispatch:
 
