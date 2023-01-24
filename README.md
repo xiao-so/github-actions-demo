@@ -1,7 +1,7 @@
 ## 了解 GitHub  Actions 文件
 > 分支：demo-action
 >
-> [xiao-so/github-actions-demo at demo-action](https://github.com/xiao-so/github-actions-demo/tree/demo-action)
+> [demo-action](https://github.com/xiao-so/github-actions-demo/tree/demo-action)
 
 GitHub  Actions 文件采用 YAML 语法，文件存放在代码仓库 `.github/workflows/` 文件夹下，可以有任意多个。
 
