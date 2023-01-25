@@ -14,6 +14,7 @@ on:
   push:
     branches:
       - quick-start-ci
+  workflow_dispatch:
 jobs:
   Package-Maven-Project:
     env:

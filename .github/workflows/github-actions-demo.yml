@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - quick-start
+  workflow_dispatch:
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
